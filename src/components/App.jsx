@@ -1,13 +1,13 @@
 import React from "react";
 import Card from "./Card";
 import contacts from "../contacts";
-
-console.log(contacts);
+import Avatar from "./Avatar";
 
 function App() {
   return (
     <div>
       <h1 className="heading">My Contacts</h1>
+      <Avatar img="https://i0.wp.com/readysetpuppy.com/wp-content/uploads/2019/09/Being-a-bulldog-parent.jpg?fit=1000%2C503&ssl=1" />
       <Card
         name={contacts[0].name}
         imgURL={contacts[0].imgURL}
